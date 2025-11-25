@@ -1,3 +1,7 @@
+# Version 1.0.1
+-----
+Minor Release, fixes a few config options.
+
 # Version 1.0.0
 ------
 Initial release of the plugin.
