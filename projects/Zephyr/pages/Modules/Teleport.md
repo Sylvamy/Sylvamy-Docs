@@ -14,7 +14,7 @@ The Teleport module contains various useful teleportation based commands and fea
 | /tpdeny | Deny the latest pending TPA/TPAHere request | zephyr.command.tpa |
 | /tpno | Alias of /tpdeny | zephyr.command.tpa |
 | /back | Teleport to your last saved location (recent teleports or death) | zephyr.command.back |
-| /tppos <x> <y> <z> [world] [player] | Teleport to coordinates; optional world/player lets you teleport another player | zephyr.command.tppos (zephyr.command.tppos.other needed to move other players) |
+| /tppos <x> <y> <z> [world] [player] | Teleport to coordinates; optional world/player lets you teleport another player | zephyr.command.tppos |
 
 
 # Config
