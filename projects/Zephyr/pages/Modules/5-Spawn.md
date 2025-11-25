@@ -85,7 +85,7 @@ TeleportMount:
 
 # Should players be teleported to spawn everytime they join?
 SpawnOnJoin:
-  Enable: false
+  Enabled: false
   # The name of the spawn to teleport them to.
   Spawn: spawn
 
