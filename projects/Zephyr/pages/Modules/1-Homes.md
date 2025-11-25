@@ -43,7 +43,7 @@ If set to false, boats won't be teleported even with TeleportMount enabled.
 If set to false, minecarts won't be teleported even with TeleportMount enabled.
 
 
-Modules/Homes.yml
+## Modules/Homes.yml
 ```yaml
 MaxHomes: 5
 TeleportDelay: 3
