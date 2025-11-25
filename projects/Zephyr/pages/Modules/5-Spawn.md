@@ -67,38 +67,26 @@ If you do not specify a slot, or the player already has an item in the slot, it 
 
 Modules/Spawn.yml
 ```yaml
-# Where do players go when they first join the server.
 FirstSpawn: spawn
-# How long of a delay before the player teleports.
 TeleportDelay: 3
-# Should movement cancel teleporting.
 MoveCancelsTeleport: true
 
 TeleportMount:
   Enabled: false
-  # Require that the player is the owner of the mount to prevent stealing others mounts.
   RequireOwner: true
-  # Will boats be teleported as mounts.
   Boats: false
-  # Will minecarts be teleported as mounts.
   Minecarts: false
 
-# Should players be teleported to spawn everytime they join?
 SpawnOnJoin:
   Enabled: false
   # The name of the spawn to teleport them to.
   Spawn: spawn
 
-# Custom join messages, configure them in messages.yml
 JoinMessages:
   Join: true
   Leave: true
   FirstJoin: true
 
-# Items given to players on their first join.
-# the format for items is "<item> <amount> <slot>"
-# If no amount is specified, it defaults to 1.
-# If no slot is specified, it puts it in the next available slot.
 FirstJoinItems:
   Enabled: false
   Items:
