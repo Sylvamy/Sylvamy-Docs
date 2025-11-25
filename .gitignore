@@ -1,2 +1,11 @@
 # Local secrets
 .env
+edit.php
+index.php
+project.php
+login.php
+.htaccess
+preferences.php
+/modules/
+/assets/
+/libs/
