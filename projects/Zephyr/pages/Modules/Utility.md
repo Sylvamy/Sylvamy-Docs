@@ -13,10 +13,10 @@ The utility module contains a wide range of commands you might find useful.
 | /god [player] | Toggle god mode for yourself or another player | zephyr.command.god |
 | /fly [player] | Toggle flight for yourself or another player | zephyr.command.fly |
 | /gamemode <mode> [player] | Set your or another player’s gamemode | zephyr.gamemode.<mode> |
-| /gmc [player] | Set creative mode | self: zephyr.gamemode.creative |
-| /gms [player] | Set survival mode | self: zephyr.gamemode.survival |
-| /gma [player] | Set adventure mode | self: zephyr.gamemode.adventure |
-| /gmsp [player] | Set spectator mode | self: zephyr.gamemode.spectator |
+| /gmc [player] | Set creative mode | zephyr.gamemode.creative |
+| /gms [player] | Set survival mode | zephyr.gamemode.survival |
+| /gma [player] | Set adventure mode | zephyr.gamemode.adventure |
+| /gmsp [player] | Set spectator mode | zephyr.gamemode.spectator |
 | /weather <weather> [world] | Change weather in a world | zephyr.command.weather |
 | /sun [world] | Set weather to sun/clear | zephyr.command.weather |
 | /rain [world] | Set weather to rain | zephyr.command.weather |
