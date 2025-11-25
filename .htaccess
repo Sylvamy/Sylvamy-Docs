@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^edit/?$ edit.php [L,QSA]
+
+RewriteRule ^edit/([^/]+)/?$ edit.php?project=$1 [L,QSA]
+
+RewriteRule ^edit/([^/]+)/(.+)$ edit.php?project=$1&page=$2 [L,QSA]
+RewriteRule ^project/([^/]+)/?$ project.php?project=$1 [L,QSA]
+
+RewriteRule ^project/([^/]+)/(.+)$ project.php?project=$1&page=$2 [L,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^/?(.*)$ /$1.php [L]
+
+<Files ".env">
+  Require all denied
+</Files>
