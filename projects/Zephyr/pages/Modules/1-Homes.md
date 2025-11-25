@@ -45,26 +45,15 @@ If set to false, minecarts won't be teleported even with TeleportMount enabled.
 
 Modules/Homes.yml
 ```yaml
-# Maximum homes that can be set by default.
-# Can be overwritten with zephyr.homes.max.<number>
-# Set to 0 for unlimited homes.
 MaxHomes: 5
-# The delay in seconds before teleporting when using /home
-# Set to 0 to disable.
 TeleportDelay: 3
-# Should players confirm if they want to overwrite existing homes.
 ConfirmOverwrite: true
-# Should players confirm if they want to delete existing homes when using /delhome.
 ConfirmDelete: true
-# Should movement cancel teleporting.
 MoveCancelsTeleport: true
 
 TeleportMount:
   Enabled: true
-  # Require that the player is the owner of the mount to prevent stealing others mounts.
   RequireOwner: true
-  # Will boats be teleported as mounts.
   Boats: false
-  # Will minecarts be teleported as mounts.
   Minecarts: false
 ```
