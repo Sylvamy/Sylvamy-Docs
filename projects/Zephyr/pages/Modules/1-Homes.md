@@ -44,6 +44,7 @@ If set to false, minecarts won't be teleported even with TeleportMount enabled.
 
 
 ## Modules/Homes.yml
+----
 ```yaml
 MaxHomes: 5
 TeleportDelay: 3
