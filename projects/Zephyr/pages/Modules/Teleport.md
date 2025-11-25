@@ -35,7 +35,22 @@ The time in seconds a player must wait before sending another TPA request.
 ### MoveCancelsTeleport
 If true, and the user moves before the TeleportDelay is over, the teleportation will be cancelled.
 
-Modules/Homes.yml
+## Back
+
+### History
+How many previous locations should the server keep track of. Recommended not to set this too high.
+
+### Delay
+The delay in seconds before the player gets teleported.
+
+### Cooldown
+How long players must wait before they teleport.
+
+### MoveCancelsTeleport
+If true, and the user moves before the TeleportDelay is over, the teleportation will be cancelled.
+
+## Modules/Teleport.yml
+----
 ```yaml
 TPA:
   Delay: 3
@@ -47,5 +62,6 @@ Back:
   History: 10
   Delay: 3
   Cooldown: 120
+  MoveCancelsTeleport: true
 
 ```
