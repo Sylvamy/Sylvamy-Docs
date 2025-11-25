@@ -10,13 +10,13 @@ The utility module contains a wide range of commands you might find useful.
 | /serverinfo | Display RAM, uptime, entities, player counts, TPS/MSPT | zephyr.command.serverinfo |
 | /heal [player] | Heal yourself or another player, clearing hunger and effects (if enabled) | zephyr.command.heal |
 | /feed [player] | Restore hunger/saturation for you or another player | zephyr.command.feed |
-| /god [player] | Toggle god mode for yourself or another player | zephyr.command.god (others: zephyr.command.god.other) |
+| /god [player] | Toggle god mode for yourself or another player | zephyr.command.god |
 | /fly [player] | Toggle flight for yourself or another player | zephyr.command.fly |
-| /gamemode <mode> [player] | Set your or another player’s gamemode | self: zephyr.gamemode.all or zephyr.gamemode.\<mode> |
-| /gmc [player] | Set creative mode | self: zephyr.gamemode.all or zephyr.gamemode.creative |
-| /gms [player] | Set survival mode | self: zephyr.gamemode.all or zephyr.gamemode.survival |
-| /gma [player] | Set adventure mode | self: zephyr.gamemode.all or zephyr.gamemode.adventure |
-| /gmsp [player] | Set spectator mode | self: zephyr.gamemode.all or zephyr.gamemode.spectator |
+| /gamemode <mode> [player] | Set your or another player’s gamemode | zephyr.gamemode.<mode> |
+| /gmc [player] | Set creative mode | self: zephyr.gamemode.creative |
+| /gms [player] | Set survival mode | self: zephyr.gamemode.survival |
+| /gma [player] | Set adventure mode | self: zephyr.gamemode.adventure |
+| /gmsp [player] | Set spectator mode | self: zephyr.gamemode.spectator |
 | /weather <weather> [world] | Change weather in a world | zephyr.command.weather |
 | /sun [world] | Set weather to sun/clear | zephyr.command.weather |
 | /rain [world] | Set weather to rain | zephyr.command.weather |
