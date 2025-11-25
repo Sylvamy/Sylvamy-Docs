@@ -65,7 +65,9 @@ A list of items to give the player, in the format of <item> <amount> <slot>.
 If you do not specify an amount, it will default to just 1 item.
 If you do not specify a slot, or the player already has an item in the slot, it will default to the first available slot in the players inventory.
 
-Modules/Spawn.yml
+
+## Modules/Spawn.yml
+----
 ```yaml
 FirstSpawn: spawn
 TeleportDelay: 3
