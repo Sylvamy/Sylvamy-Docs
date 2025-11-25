@@ -10,6 +10,7 @@ The Homes module allows players to set locations as homes they can teleport back
 
 # Config
 ----
+The config can be found at `plugins/Zephyr/Modules/Homes.yml`.
 
 ## MaxHomes
 The maximum amount of homes a player can set. Setting this to 0 will allow unlimited homes.
