@@ -6,22 +6,22 @@ The utility module contains a wide range of commands you might find useful.
 |---------|-------------|------------|
 | /ping [player] | Show your ping or another player’s | zephyr.command.ping |
 | /zephyr reload [messages] | Reload the plugin, or just messages when specified | zephyr.reload |
-| /seen \<player> | Show last seen/online info (admin view if you also have admin perm) | zephyr.command.seen |
+| /seen <player> | Show last seen/online info (admin view if you also have admin perm) | zephyr.command.seen |
 | /serverinfo | Display RAM, uptime, entities, player counts, TPS/MSPT | zephyr.command.serverinfo |
 | /heal [player] | Heal yourself or another player, clearing hunger and effects (if enabled) | zephyr.command.heal |
 | /feed [player] | Restore hunger/saturation for you or another player | zephyr.command.feed |
 | /god [player] | Toggle god mode for yourself or another player | zephyr.command.god (others: zephyr.command.god.other) |
 | /fly [player] | Toggle flight for yourself or another player | zephyr.command.fly |
-| /gamemode \<mode> [player] | Set your or another player’s gamemode | self: zephyr.gamemode.all or zephyr.gamemode.\<mode> |
+| /gamemode <mode> [player] | Set your or another player’s gamemode | self: zephyr.gamemode.all or zephyr.gamemode.\<mode> |
 | /gmc [player] | Set creative mode | self: zephyr.gamemode.all or zephyr.gamemode.creative |
 | /gms [player] | Set survival mode | self: zephyr.gamemode.all or zephyr.gamemode.survival |
 | /gma [player] | Set adventure mode | self: zephyr.gamemode.all or zephyr.gamemode.adventure |
 | /gmsp [player] | Set spectator mode | self: zephyr.gamemode.all or zephyr.gamemode.spectator |
-| /weather \<sun\|rain\|storm> [world] | Change weather in a world | zephyr.command.weather |
+| /weather <weather> [world] | Change weather in a world | zephyr.command.weather |
 | /sun [world] | Set weather to sun/clear | zephyr.command.weather |
 | /rain [world] | Set weather to rain | zephyr.command.weather |
 | /storm [world] | Set weather to storm | zephyr.command.weather |
-| /time \<day\|night\|noon\|midnight\|morning\|evening\|tick> [world] | Set time in a world (tick accepts 0–24000) | zephyr.command.time |
+| /time <time> [world] | Set time in a world (tick accepts 0–24000) | zephyr.command.time |
 | /day [world] | Set time to day | zephyr.command.time |
 | /night [world] | Set time to night | zephyr.command.time |
 | /noon [world] | Set time to noon | zephyr.command.time |
