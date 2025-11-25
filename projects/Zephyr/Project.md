@@ -2,4 +2,4 @@ Zephyr is a Minecraft Plugin with lots of useful and helpful utility features an
 
 I have a lot planned for it, but for now its pretty small.
 
-You can download builds [Here](https://jenkins.sylvamy.xyz/job/Zephyr/)
+You can download builds [Here](https://jenkins.sylvamy.xyz/job/Zephyr/) 
