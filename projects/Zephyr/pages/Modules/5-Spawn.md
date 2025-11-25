@@ -79,7 +79,6 @@ TeleportMount:
 
 SpawnOnJoin:
   Enabled: false
-  # The name of the spawn to teleport them to.
   Spawn: spawn
 
 JoinMessages:
